@@ -12,6 +12,9 @@ services:
       MYSQL_PASSWORD: vvp
       MYSQL_DATABASE: vvp_db
       
+volumes:
+  - db_storage:
+      
       
     
     
